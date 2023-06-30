@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+}
+
+.container {
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: #1B244A;
+    height: 80vh;
+    width: 90vw;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+#scorehome{
+    height: 120px;
+    width: 150px;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 55px;
+    /* border: 2px solid black; */
+    background-color: black;
+    border-radius: 7px;
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+#scoreguest{
+    height: 120px;
+    width: 150px;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 55px;
+    /* border: 2px solid black; */
+    background-color: black;
+    border-radius: 7px;
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.home, .guest{
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.scoring-btn{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    height: 45px;
+    width: 155px;
+    
+}
+
+button{
+    width: 45px;
+    border-radius: 5px;
+    border: 1px solid #7A88B2;
+    color: #7A88B2;
+    background-color: #1B244A;
+}
+
+h3{
+    font-family: sans-serif;
+    color: white;
+    font-weight: bolder;
+    font-size: 40px;
+    margin-bottom: 10px;
+    
+}
+
+#reset > button{
+    display: block;
+    height: 40px;
+    width: 150px;
+    margin: 10px auto;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bolder;
+}
